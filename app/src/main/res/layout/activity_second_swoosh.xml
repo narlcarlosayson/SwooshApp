@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.swooshapp.secondSwoosh">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/desired_league_bg"
+            />
+    <ImageView
+        android:id="@+id/swoosh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/swoosh_logo"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="33dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desiredL"
+        android:layout_below="@id/swoosh2"
+        android:layout_centerInParent="true"
+        android:text="@string/desleague"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/mensBtn"
+
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Mens"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_below="@+id/desiredL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/womensBtn"
+
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Womens"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_below="@+id/mensBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/coedBtn"
+
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Co-ed"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_below="@+id/womensBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/nxtBtn"
+
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/inout"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/inout"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>

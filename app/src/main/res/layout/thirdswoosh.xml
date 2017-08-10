@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/beginner_baller_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swoosh3"
+        android:layout_centerInParent="true"
+        android:background="@drawable/swoosh_logo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="45dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desiredL"
+        android:layout_below="@id/swoosh3"
+        android:layout_centerInParent="true"
+        android:text="@string/iAma"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+       />
+
+    <Button
+        android:id="@+id/bBeginner"
+
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Beginner"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/desiredL"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+    <Button
+        android:id="@+id/bBaller"
+
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Baller"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/bBeginner"
+        android:layout_alignBottom="@+id/bBeginner"
+        android:layout_toRightOf="@+id/bBeginner"
+        android:layout_toEndOf="@+id/bBeginner"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+    <Button
+        android:id="@+id/bBeginnerr"
+
+
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Beginner"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/desiredL"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+</RelativeLayout>
