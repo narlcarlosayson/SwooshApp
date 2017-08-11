@@ -115,7 +115,8 @@
            android:layout_marginTop="370dp"
            android:textSize="15sp"
            android:textColor="#FFFFFF"
-           android:text="I AM A:" />
+           android:text="@string/iamA"
+           android:visibility="gone"/>
     <TextView
         android:id="@+id/ialeague"
         android:layout_width="wrap_content"

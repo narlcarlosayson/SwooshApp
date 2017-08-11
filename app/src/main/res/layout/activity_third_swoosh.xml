@@ -68,24 +68,7 @@
         android:layout_alignBottom="@+id/bBeginner"
         android:layout_alignRight="@+id/fbground"
         android:layout_alignEnd="@+id/fbground" />
-    <Button
-        android:id="@+id/bBeginnerr"
 
-
-        android:layout_width="160dp"
-        android:layout_height="45dp"
-        android:background="@drawable/buttonshape"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="Beginner"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:layout_alignBaseline="@+id/bBaller"
-        android:layout_alignBottom="@+id/bBaller"
-        android:layout_alignLeft="@+id/bBeginner"
-        android:layout_alignStart="@+id/bBeginner" />
     <Button
             android:id="@+id/fbground"
             android:layout_width="match_parent"
