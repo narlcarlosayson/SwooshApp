@@ -18,7 +18,7 @@ public class secondSwoosh extends AppCompatActivity {
     private Button bgNext;
     private TextView Itxt;
     private TextView emptxt;
-    public static final String StringPass = "";
+
     public static final int REQ_code = 1111;
 
 
