@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/desiredL"
+        android:id="@+id/dleagueTxt"
         android:layout_below="@id/swoosh2"
         android:layout_centerInParent="true"
         android:text="@string/desleague"
@@ -45,7 +45,7 @@
         android:text="Mens"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
-        android:layout_below="@+id/desiredL"
+        android:layout_below="@+id/dleagueTxt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:textAllCaps="false" />
@@ -105,6 +105,27 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:layout_centerInParent="true"/>
+
+
+    <TextView
+            android:id="@+id/iamatxtleague"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="370dp"
+           android:textSize="15sp"
+           android:textColor="#FFFFFF"
+           android:text="I AM A:" />
+    <TextView
+        android:id="@+id/ialeague"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text=""
+        android:layout_below="@id/iamatxtleague"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"/>
+
 
 
 

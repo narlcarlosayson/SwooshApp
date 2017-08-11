@@ -23,13 +23,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/desiredL"
+        android:id="@+id/dleagueTxt"
         android:layout_below="@id/swoosh3"
         android:layout_centerInParent="true"
         android:text="@string/iAma"
         android:textColor="#FFFFFF"
         android:textSize="18dp"
-       />
+        />
 
     <Button
         android:id="@+id/bBeginner"
@@ -45,7 +45,7 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:layout_marginTop="44dp"
-        android:layout_below="@+id/desiredL"
+        android:layout_below="@+id/dleagueTxt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="23dp"
@@ -66,10 +66,8 @@
         android:textSize="20sp"
         android:layout_alignBaseline="@+id/bBeginner"
         android:layout_alignBottom="@+id/bBeginner"
-        android:layout_toRightOf="@+id/bBeginner"
-        android:layout_toEndOf="@+id/bBeginner"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp" />
+        android:layout_alignRight="@+id/fbground"
+        android:layout_alignEnd="@+id/fbground" />
     <Button
         android:id="@+id/bBeginnerr"
 
@@ -84,11 +82,38 @@
         android:text="Beginner"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:layout_marginTop="44dp"
-        android:layout_below="@+id/desiredL"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="23dp"
-        android:layout_marginStart="23dp" />
+        android:layout_alignBaseline="@+id/bBaller"
+        android:layout_alignBottom="@+id/bBaller"
+        android:layout_alignLeft="@+id/bBeginner"
+        android:layout_alignStart="@+id/bBeginner" />
+    <Button
+            android:id="@+id/fbground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="13dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:background="@color/bgColor" />
+    <Button
+        android:id="@+id/Ffinish"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/finish"
+        android:alpha="0.3"
+            android:enabled="false"
+
+    android:textAllCaps="true"
+        android:layout_alignTop="@+id/fbground"
+        android:layout_alignLeft="@+id/fbground"
+        android:layout_alignStart="@+id/fbground"
+        android:layout_alignRight="@+id/fbground"
+        android:layout_alignEnd="@+id/fbground" />/>
+
+
 
 </RelativeLayout>
