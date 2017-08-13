@@ -15,7 +15,7 @@ public class secondSwoosh extends AppCompatActivity {
     private Button womensBtn;
     private Button co_edBtn;
     private Button nxtBtn;
-    private Button bgNext;
+
     private TextView Itxt;
     private TextView emptxt;
 
@@ -36,7 +36,7 @@ public class secondSwoosh extends AppCompatActivity {
                     womensBtn.setAlpha(0.5f);
                     co_edBtn.setAlpha(0.5f);
                     nxtBtn.setAlpha(1f);
-                    bgNext.setEnabled(true);
+                   nxtBtn.setEnabled(true);
 
                 }
                 else if(emptxt.getText().toString().isEmpty()){
@@ -102,7 +102,7 @@ public class secondSwoosh extends AppCompatActivity {
         womensBtn = (Button) findViewById(R.id.womensBtn);
         co_edBtn = (Button) findViewById(R.id.coedBtn);
         nxtBtn = (Button) findViewById(R.id.nxtBtn);
-        Itxt = (TextView) findViewById(R.id.iamatxtleague);
+        Itxt = (TextView) findViewById(R.id.Iama);
         emptxt = (TextView) findViewById(R.id.ialeague);
 
     }

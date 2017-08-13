@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.swooshapp.MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/welcome_screen_bg"/>
+    <ImageView
+        android:id="@+id/swooosh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/swoosh_logo"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textSize="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gollin"
+        android:id="@+id/Gollin"
+        android:layout_marginTop="35dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/swooosh"
+        android:layout_centerHorizontal="true" />
+    <TextView
+    android:textSize="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/inOut"
+    android:id="@+id/inout"
+    android:layout_marginTop="10dp"
+    android:textColor="#FFFFFF"
+    android:layout_below="@+id/Gollin"
+    android:layout_centerHorizontal="true" />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allOut"
+        android:id="@+id/allout"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/Gollin"
+        android:layout_centerHorizontal="true" />
+    <TextView
+
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FindTem"
+        android:id="@+id/findteam"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/allout"
+        android:layout_centerHorizontal="true" />
+    <TextView
+
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theLeague"
+
+
+        android:id="@+id/theleague"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/findteam"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <Button
+           android:id="@+id/gStarted"
+        android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="13dp"
+           android:layout_marginLeft="16dp"
+    android:textSize="15sp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/buttonshape"
+    android:text="Get Started"
+    android:textColor="#FFFFFF"
+    android:textAllCaps="true" />
+
+</RelativeLayout>

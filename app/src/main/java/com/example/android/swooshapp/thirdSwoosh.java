@@ -42,16 +42,17 @@ searchViews();
         baLlerBtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 if(baLlerBtn.getAlpha()!= finishBtn.getAlpha() ){
-                    beGinnerBtn.setAlpha(1f);
-                    baLlerBtn.setAlpha(0.5f);
+                   baLlerBtn.setAlpha(1f);
+                    beGinnerBtn.setAlpha(0.5f);
                     finishBtn.setAlpha(1f);
                     finishBtn.setEnabled(true);
                     finishBtn.setText("Finish");
 
                 }
                 else{
-                    beGinnerBtn.setAlpha(1f);
                     baLlerBtn.setAlpha(1f);
+                   beGinnerBtn.setAlpha(1f);
+                    finishBtn.setAlpha(0.5f);
                     finishBtn.setEnabled(false);
                     finishBtn.setText("");
                 }

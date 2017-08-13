@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SwooshApp</string>
+    <string name="FindTem"><![CDATA[Find a team in your city & dominate]]></string>
+    <string name="allOut">ON GOING ALL OUT</string>
+    <string name="inOut">ON GOING ALL OUT</string>
+    <string name="gollin">GO ALL IN</string>
+    <string name="theLeague">the league</string>
+    <string name="desleague">Desired League:</string>
+    <string name="iAma">I am a:</string>
+    <string name="finish">Finish</string>
+    <string name="iamA">I AM A:</string>
+</resources>
